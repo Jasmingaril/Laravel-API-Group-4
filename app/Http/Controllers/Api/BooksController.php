@@ -62,10 +62,7 @@ class BooksController extends Controller
     {
         // Return the book as a JSON response using the BooksResource
         return new BooksResource($book);
-
     }
-    
-
 
     public function update(Books $book, Request $request)
     {
@@ -104,4 +101,6 @@ class BooksController extends Controller
             'message' => 'Book deleted successfully'
         ], 200); 
     }
+
+
 }
