@@ -8,6 +8,28 @@ use Illuminate\Container\Attributes\Auth;
 
 
 // crud operations for books
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Route::get('books', [\App\Http\Controllers\Api\BooksController::class, 'index']);
 Route::post('books', [\App\Http\Controllers\Api\BooksController::class, 'store']);
 Route::get('books/{book}', [\App\Http\Controllers\Api\BooksController::class, 'show']);
